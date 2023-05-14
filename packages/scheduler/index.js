@@ -7,4 +7,10 @@
 
 'use strict';
 
+// export * from './src/Scheduler';
+// // export * from './src/SchedulerHostConfig.js';
+export * from './src/SchedulerHostConfig.js';
+
+// 默认 ↓
 export * from './src/forks/Scheduler';
+

@@ -23,6 +23,7 @@ import ReactCurrentCache from './ReactCurrentCache';
 type BasicStateAction<S> = (S => S) | S;
 type Dispatch<A> = A => void;
 
+// 调度员
 function resolveDispatcher() {
   const dispatcher = ReactCurrentDispatcher.current;
   if (__DEV__) {
